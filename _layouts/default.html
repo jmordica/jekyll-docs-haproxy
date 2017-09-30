@@ -65,7 +65,7 @@
 				</ul>
 
 				<ul>
-					<li class="nav-item top-level {% if page.url == '/download/' %}current{% endif %}">
+					<li class="nav-item top-level">
 						{% assign download = site.html_pages | where: 'url', '/download/' | first %}
 						<a href="{{ site.baseurl }}/download/">{{ download.title }}</a>
 					</li>
